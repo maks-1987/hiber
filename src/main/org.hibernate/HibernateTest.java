@@ -14,7 +14,6 @@ public class HibernateTest {
         session.save(user);
         session.getTransaction().commit();
 
-
     }
 
 }
