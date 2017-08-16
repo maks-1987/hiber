@@ -15,8 +15,6 @@ public class HibernateTest {
         session.getTransaction().commit();
 
 
-
     }
-
 
 }
