@@ -1,3 +1,5 @@
+package org.hibernate.dto;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
