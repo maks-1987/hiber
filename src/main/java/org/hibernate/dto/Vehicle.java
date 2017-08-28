@@ -1,8 +1,11 @@
 package org.hibernate.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.hibernate.annotations.NotFound;
+import org.hibernate.annotations.NotFoundAction;
+
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Entity
 public class Vehicle {
@@ -16,6 +19,7 @@ public class Vehicle {
     public void setVehicleId(int vehicleId) {
         this.vehicleId = vehicleId;
     }
+
     public String getVehicleName() {
         return vehicleName;
     }

@@ -2,7 +2,6 @@
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 
-
 <hibernate-configuration>
     <session-factory>
         <!--Database connection settings-->
@@ -24,6 +23,8 @@
         <!--Names the annotated Entity class-->
         <mapping class="org.hibernate.dto.UserDetails"/>
         <mapping class="org.hibernate.dto.Vehicle"/>
+        <mapping class="org.hibernate.dto.TwoWheeler"/>
+        <mapping class="org.hibernate.dto.FourWheeler"/>
 
     </session-factory>
 </hibernate-configuration>
