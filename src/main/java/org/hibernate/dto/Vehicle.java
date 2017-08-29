@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 @Entity
+@Inheritance(strategy=InheritanceType.JOINED)
+//@DiscriminatorColumn(name="VEHICLE_TYPE", discriminatorType = DiscriminatorType.STRING)
 public class Vehicle {
     @Id @GeneratedValue
     private int vehicleId;

@@ -3,6 +3,7 @@ package org.hibernate.dto;
 import javax.persistence.*;
 
 @Entity
+//@DiscriminatorValue("Car")
 public class FourWheeler extends Vehicle {
     private String SteeringWheel;
 
